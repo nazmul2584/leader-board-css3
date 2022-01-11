@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.h2titel{
+    color: slateblue;
+    font-size: 24px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+.top-player{
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+}
+
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -9,4 +30,7 @@
 .player img{
     width: 56px;
     height: 56px;
+}
+.pn{
+    margin-left: 16px;
 }
