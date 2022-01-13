@@ -108,5 +108,27 @@ hr{
     padding-right: 20px;
 }
 
+@media only screen and (max-width:688px) {
+
+    .topp{
+    }
+    .players,.top-blog-container,.letest-cours-container{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .top-player{
+        width: 100%;
+    }
+    .player,.blogs-artical{
+        flex-direction: column;
+        align-items: center;
+    }
+    .letest-course{
+        width: 100%;
+    }
+    
+    
+}
+
 
 
